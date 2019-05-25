@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+</script>
+<script src="service.js"></script>
+</head>
+<body>
+	<div>
+		Email : <input type="email" id="email" />
+		<button onClick="getUserbyEmail()">View</button>
+
+		<div id="name"></div>
+		<div id="address"></div>
+		<div id="tel"></div>
+		<div id="email"></div>
+		<div id="uname"></div>
+	</div>
+	
+	<div>
+		User ID :
+		<input type="text" id="user_id"/>
+		
+		<button onClick="deleteUser()">Delete</button>
+	</div>
+	
+	<div>
+		Name:
+		<input type="text" id="name"><br />
+		Email:
+		<input type="email" id="email"><br />
+		Password: 
+		<input type="password" id="password"><br />
+		Address:
+		<input type="text" id="address"><br />
+		Telephone:
+		<input type="text" id="tel"><br />
+		Username:
+		<input type="text" id="uname"><br />
+		
+		<button onClick="addUser()">Add</button>
+	</div>
+	
+	<div>
+		Name:
+		<input type="text" id="name"><br />
+		Email:
+		<input type="email" id="email"><br />
+		Password: 
+		<input type="password" id="password"><br />
+		Address:
+		<input type="text" id="address"><br />
+		Telephone:
+		<input type="text" id="tel"><br />
+		Username:
+		<input type="text" id="uname"><br />
+		
+		<button onClick="updateUser()">Update</button>
+	</div>
+</body>
+</html>
